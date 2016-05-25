@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0C0C5D1CEEE9B7001B70AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C5C1CEEE9B7001B70AF /* main.m */; };
+		AF0C0C601CEEE9B7001B70AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C5F1CEEE9B7001B70AF /* AppDelegate.m */; };
+		AF0C0C631CEEE9B7001B70AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C621CEEE9B7001B70AF /* ViewController.m */; };
+		AF0C0C661CEEE9B7001B70AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C0C641CEEE9B7001B70AF /* Main.storyboard */; };
+		AF0C0C681CEEE9B7001B70AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0C0C671CEEE9B7001B70AF /* Assets.xcassets */; };
+		AF0C0C6B1CEEE9B7001B70AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0C0C691CEEE9B7001B70AF /* LaunchScreen.storyboard */; };
+		AF0C0C761CEEE9B7001B70AF /* UberOAuth2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C751CEEE9B7001B70AF /* UberOAuth2Tests.m */; };
+		AF0C0C811CEEE9B7001B70AF /* UberOAuth2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C801CEEE9B7001B70AF /* UberOAuth2UITests.m */; };
+		AF0C0CA01CEEE9DD001B70AF /* UberAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C901CEEE9DD001B70AF /* UberAPI.m */; };
+		AF0C0CA11CEEE9DD001B70AF /* UberLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C921CEEE9DD001B70AF /* UberLoginWebViewController.m */; };
+		AF0C0CA21CEEE9DD001B70AF /* UberActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C951CEEE9DD001B70AF /* UberActivity.m */; };
+		AF0C0CA31CEEE9DD001B70AF /* UberPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C971CEEE9DD001B70AF /* UberPrice.m */; };
+		AF0C0CA41CEEE9DD001B70AF /* UberProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C991CEEE9DD001B70AF /* UberProduct.m */; };
+		AF0C0CA51CEEE9DD001B70AF /* UberProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C9B1CEEE9DD001B70AF /* UberProfile.m */; };
+		AF0C0CA61CEEE9DD001B70AF /* UberPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C9D1CEEE9DD001B70AF /* UberPromotion.m */; };
+		AF0C0CA71CEEE9DD001B70AF /* UberTime.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0C0C9F1CEEE9DD001B70AF /* UberTime.m */; };
+		AF42210F1CF532790053FECD /* UbeCouponVc.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42210C1CF532790053FECD /* UbeCouponVc.m */; };
+		AF4221101CF532790053FECD /* UberTicketVc.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42210E1CF532790053FECD /* UberTicketVc.m */; };
+		AF42213C1CF533CA0053FECD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221151CF533CA0053FECD /* AFHTTPRequestOperation.m */; };
+		AF42213D1CF533CA0053FECD /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221171CF533CA0053FECD /* AFHTTPRequestOperationManager.m */; };
+		AF42213E1CF533CA0053FECD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221191CF533CA0053FECD /* AFURLConnectionOperation.m */; };
+		AF42213F1CF533CA0053FECD /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42211C1CF533CA0053FECD /* AFHTTPSessionManager.m */; };
+		AF4221401CF533CA0053FECD /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42211E1CF533CA0053FECD /* AFURLSessionManager.m */; };
+		AF4221411CF533CA0053FECD /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221211CF533CA0053FECD /* AFNetworkReachabilityManager.m */; };
+		AF4221421CF533CA0053FECD /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221241CF533CA0053FECD /* AFSecurityPolicy.m */; };
+		AF4221431CF533CA0053FECD /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221271CF533CA0053FECD /* AFURLRequestSerialization.m */; };
+		AF4221441CF533CA0053FECD /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221291CF533CA0053FECD /* AFURLResponseSerialization.m */; };
+		AF4221451CF533CA0053FECD /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42212C1CF533CA0053FECD /* AFNetworkActivityIndicatorManager.m */; };
+		AF4221461CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42212E1CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.m */; };
+		AF4221471CF533CA0053FECD /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221301CF533CA0053FECD /* UIAlertView+AFNetworking.m */; };
+		AF4221481CF533CA0053FECD /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221321CF533CA0053FECD /* UIButton+AFNetworking.m */; };
+		AF4221491CF533CA0053FECD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221341CF533CA0053FECD /* UIImageView+AFNetworking.m */; };
+		AF42214A1CF533CA0053FECD /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221371CF533CA0053FECD /* UIProgressView+AFNetworking.m */; };
+		AF42214B1CF533CA0053FECD /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4221391CF533CA0053FECD /* UIRefreshControl+AFNetworking.m */; };
+		AF42214C1CF533CA0053FECD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AF42213B1CF533CA0053FECD /* UIWebView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF0C0C721CEEE9B7001B70AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0C0C501CEEE9B7001B70AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0C0C571CEEE9B7001B70AF;
+			remoteInfo = UberOAuth2;
+		};
+		AF0C0C7D1CEEE9B7001B70AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0C0C501CEEE9B7001B70AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0C0C571CEEE9B7001B70AF;
+			remoteInfo = UberOAuth2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0C0C581CEEE9B7001B70AF /* UberOAuth2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberOAuth2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C0C5C1CEEE9B7001B70AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF0C0C5E1CEEE9B7001B70AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF0C0C5F1CEEE9B7001B70AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF0C0C611CEEE9B7001B70AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF0C0C621CEEE9B7001B70AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF0C0C651CEEE9B7001B70AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF0C0C671CEEE9B7001B70AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0C0C6A1CEEE9B7001B70AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF0C0C6C1CEEE9B7001B70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C0C711CEEE9B7001B70AF /* UberOAuth2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberOAuth2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C0C751CEEE9B7001B70AF /* UberOAuth2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberOAuth2Tests.m; sourceTree = "<group>"; };
+		AF0C0C771CEEE9B7001B70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C0C7C1CEEE9B7001B70AF /* UberOAuth2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberOAuth2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0C0C801CEEE9B7001B70AF /* UberOAuth2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberOAuth2UITests.m; sourceTree = "<group>"; };
+		AF0C0C821CEEE9B7001B70AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0C0C8F1CEEE9DD001B70AF /* UberAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberAPI.h; sourceTree = "<group>"; };
+		AF0C0C901CEEE9DD001B70AF /* UberAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberAPI.m; sourceTree = "<group>"; };
+		AF0C0C911CEEE9DD001B70AF /* UberLoginWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberLoginWebViewController.h; sourceTree = "<group>"; };
+		AF0C0C921CEEE9DD001B70AF /* UberLoginWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberLoginWebViewController.m; sourceTree = "<group>"; };
+		AF0C0C941CEEE9DD001B70AF /* UberActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberActivity.h; sourceTree = "<group>"; };
+		AF0C0C951CEEE9DD001B70AF /* UberActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberActivity.m; sourceTree = "<group>"; };
+		AF0C0C961CEEE9DD001B70AF /* UberPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberPrice.h; sourceTree = "<group>"; };
+		AF0C0C971CEEE9DD001B70AF /* UberPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberPrice.m; sourceTree = "<group>"; };
+		AF0C0C981CEEE9DD001B70AF /* UberProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberProduct.h; sourceTree = "<group>"; };
+		AF0C0C991CEEE9DD001B70AF /* UberProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberProduct.m; sourceTree = "<group>"; };
+		AF0C0C9A1CEEE9DD001B70AF /* UberProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberProfile.h; sourceTree = "<group>"; };
+		AF0C0C9B1CEEE9DD001B70AF /* UberProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberProfile.m; sourceTree = "<group>"; };
+		AF0C0C9C1CEEE9DD001B70AF /* UberPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberPromotion.h; sourceTree = "<group>"; };
+		AF0C0C9D1CEEE9DD001B70AF /* UberPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberPromotion.m; sourceTree = "<group>"; };
+		AF0C0C9E1CEEE9DD001B70AF /* UberTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberTime.h; sourceTree = "<group>"; };
+		AF0C0C9F1CEEE9DD001B70AF /* UberTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberTime.m; sourceTree = "<group>"; };
+		AF42210B1CF532790053FECD /* UbeCouponVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbeCouponVc.h; sourceTree = "<group>"; };
+		AF42210C1CF532790053FECD /* UbeCouponVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbeCouponVc.m; sourceTree = "<group>"; };
+		AF42210D1CF532790053FECD /* UberTicketVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberTicketVc.h; sourceTree = "<group>"; };
+		AF42210E1CF532790053FECD /* UberTicketVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberTicketVc.m; sourceTree = "<group>"; };
+		AF4221121CF533CA0053FECD /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AF4221141CF533CA0053FECD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AF4221151CF533CA0053FECD /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AF4221161CF533CA0053FECD /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AF4221171CF533CA0053FECD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AF4221181CF533CA0053FECD /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AF4221191CF533CA0053FECD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AF42211B1CF533CA0053FECD /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AF42211C1CF533CA0053FECD /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AF42211D1CF533CA0053FECD /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AF42211E1CF533CA0053FECD /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AF4221201CF533CA0053FECD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AF4221211CF533CA0053FECD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AF4221231CF533CA0053FECD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AF4221241CF533CA0053FECD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AF4221261CF533CA0053FECD /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AF4221271CF533CA0053FECD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AF4221281CF533CA0053FECD /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AF4221291CF533CA0053FECD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AF42212B1CF533CA0053FECD /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AF42212C1CF533CA0053FECD /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AF42212D1CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AF42212E1CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		AF42212F1CF533CA0053FECD /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221301CF533CA0053FECD /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		AF4221311CF533CA0053FECD /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221321CF533CA0053FECD /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		AF4221331CF533CA0053FECD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221341CF533CA0053FECD /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		AF4221351CF533CA0053FECD /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221361CF533CA0053FECD /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221371CF533CA0053FECD /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		AF4221381CF533CA0053FECD /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		AF4221391CF533CA0053FECD /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		AF42213A1CF533CA0053FECD /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		AF42213B1CF533CA0053FECD /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0C0C551CEEE9B7001B70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C6E1CEEE9B7001B70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C791CEEE9B7001B70AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0C0C4F1CEEE9B7001B70AF = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C5A1CEEE9B7001B70AF /* UberOAuth2 */,
+				AF0C0C741CEEE9B7001B70AF /* UberOAuth2Tests */,
+				AF0C0C7F1CEEE9B7001B70AF /* UberOAuth2UITests */,
+				AF0C0C591CEEE9B7001B70AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0C0C591CEEE9B7001B70AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C581CEEE9B7001B70AF /* UberOAuth2.app */,
+				AF0C0C711CEEE9B7001B70AF /* UberOAuth2Tests.xctest */,
+				AF0C0C7C1CEEE9B7001B70AF /* UberOAuth2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0C0C5A1CEEE9B7001B70AF /* UberOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221111CF533CA0053FECD /* AFNetworking */,
+				AF0C0C8E1CEEE9DD001B70AF /* UberOAuth2 */,
+				AF0C0C5E1CEEE9B7001B70AF /* AppDelegate.h */,
+				AF0C0C5F1CEEE9B7001B70AF /* AppDelegate.m */,
+				AF0C0C611CEEE9B7001B70AF /* ViewController.h */,
+				AF0C0C621CEEE9B7001B70AF /* ViewController.m */,
+				AF0C0C641CEEE9B7001B70AF /* Main.storyboard */,
+				AF0C0C671CEEE9B7001B70AF /* Assets.xcassets */,
+				AF0C0C691CEEE9B7001B70AF /* LaunchScreen.storyboard */,
+				AF0C0C6C1CEEE9B7001B70AF /* Info.plist */,
+				AF0C0C5B1CEEE9B7001B70AF /* Supporting Files */,
+			);
+			path = UberOAuth2;
+			sourceTree = "<group>";
+		};
+		AF0C0C5B1CEEE9B7001B70AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C5C1CEEE9B7001B70AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF0C0C741CEEE9B7001B70AF /* UberOAuth2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C751CEEE9B7001B70AF /* UberOAuth2Tests.m */,
+				AF0C0C771CEEE9B7001B70AF /* Info.plist */,
+			);
+			path = UberOAuth2Tests;
+			sourceTree = "<group>";
+		};
+		AF0C0C7F1CEEE9B7001B70AF /* UberOAuth2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C801CEEE9B7001B70AF /* UberOAuth2UITests.m */,
+				AF0C0C821CEEE9B7001B70AF /* Info.plist */,
+			);
+			path = UberOAuth2UITests;
+			sourceTree = "<group>";
+		};
+		AF0C0C8E1CEEE9DD001B70AF /* UberOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C8F1CEEE9DD001B70AF /* UberAPI.h */,
+				AF0C0C901CEEE9DD001B70AF /* UberAPI.m */,
+				AF0C0C911CEEE9DD001B70AF /* UberLoginWebViewController.h */,
+				AF0C0C921CEEE9DD001B70AF /* UberLoginWebViewController.m */,
+				AF42210B1CF532790053FECD /* UbeCouponVc.h */,
+				AF42210C1CF532790053FECD /* UbeCouponVc.m */,
+				AF42210D1CF532790053FECD /* UberTicketVc.h */,
+				AF42210E1CF532790053FECD /* UberTicketVc.m */,
+				AF0C0C931CEEE9DD001B70AF /* UberModel */,
+			);
+			path = UberOAuth2;
+			sourceTree = "<group>";
+		};
+		AF0C0C931CEEE9DD001B70AF /* UberModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF0C0C941CEEE9DD001B70AF /* UberActivity.h */,
+				AF0C0C951CEEE9DD001B70AF /* UberActivity.m */,
+				AF0C0C961CEEE9DD001B70AF /* UberPrice.h */,
+				AF0C0C971CEEE9DD001B70AF /* UberPrice.m */,
+				AF0C0C981CEEE9DD001B70AF /* UberProduct.h */,
+				AF0C0C991CEEE9DD001B70AF /* UberProduct.m */,
+				AF0C0C9A1CEEE9DD001B70AF /* UberProfile.h */,
+				AF0C0C9B1CEEE9DD001B70AF /* UberProfile.m */,
+				AF0C0C9C1CEEE9DD001B70AF /* UberPromotion.h */,
+				AF0C0C9D1CEEE9DD001B70AF /* UberPromotion.m */,
+				AF0C0C9E1CEEE9DD001B70AF /* UberTime.h */,
+				AF0C0C9F1CEEE9DD001B70AF /* UberTime.m */,
+			);
+			path = UberModel;
+			sourceTree = "<group>";
+		};
+		AF4221111CF533CA0053FECD /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221121CF533CA0053FECD /* AFNetworking.h */,
+				AF4221131CF533CA0053FECD /* NSURLConnection */,
+				AF42211A1CF533CA0053FECD /* NSURLSession */,
+				AF42211F1CF533CA0053FECD /* Reachability */,
+				AF4221221CF533CA0053FECD /* Security */,
+				AF4221251CF533CA0053FECD /* Serialization */,
+				AF42212A1CF533CA0053FECD /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AF4221131CF533CA0053FECD /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221141CF533CA0053FECD /* AFHTTPRequestOperation.h */,
+				AF4221151CF533CA0053FECD /* AFHTTPRequestOperation.m */,
+				AF4221161CF533CA0053FECD /* AFHTTPRequestOperationManager.h */,
+				AF4221171CF533CA0053FECD /* AFHTTPRequestOperationManager.m */,
+				AF4221181CF533CA0053FECD /* AFURLConnectionOperation.h */,
+				AF4221191CF533CA0053FECD /* AFURLConnectionOperation.m */,
+			);
+			path = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		AF42211A1CF533CA0053FECD /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AF42211B1CF533CA0053FECD /* AFHTTPSessionManager.h */,
+				AF42211C1CF533CA0053FECD /* AFHTTPSessionManager.m */,
+				AF42211D1CF533CA0053FECD /* AFURLSessionManager.h */,
+				AF42211E1CF533CA0053FECD /* AFURLSessionManager.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		AF42211F1CF533CA0053FECD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221201CF533CA0053FECD /* AFNetworkReachabilityManager.h */,
+				AF4221211CF533CA0053FECD /* AFNetworkReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		AF4221221CF533CA0053FECD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221231CF533CA0053FECD /* AFSecurityPolicy.h */,
+				AF4221241CF533CA0053FECD /* AFSecurityPolicy.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		AF4221251CF533CA0053FECD /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				AF4221261CF533CA0053FECD /* AFURLRequestSerialization.h */,
+				AF4221271CF533CA0053FECD /* AFURLRequestSerialization.m */,
+				AF4221281CF533CA0053FECD /* AFURLResponseSerialization.h */,
+				AF4221291CF533CA0053FECD /* AFURLResponseSerialization.m */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		AF42212A1CF533CA0053FECD /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AF42212B1CF533CA0053FECD /* AFNetworkActivityIndicatorManager.h */,
+				AF42212C1CF533CA0053FECD /* AFNetworkActivityIndicatorManager.m */,
+				AF42212D1CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.h */,
+				AF42212E1CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.m */,
+				AF42212F1CF533CA0053FECD /* UIAlertView+AFNetworking.h */,
+				AF4221301CF533CA0053FECD /* UIAlertView+AFNetworking.m */,
+				AF4221311CF533CA0053FECD /* UIButton+AFNetworking.h */,
+				AF4221321CF533CA0053FECD /* UIButton+AFNetworking.m */,
+				AF4221331CF533CA0053FECD /* UIImageView+AFNetworking.h */,
+				AF4221341CF533CA0053FECD /* UIImageView+AFNetworking.m */,
+				AF4221351CF533CA0053FECD /* UIKit+AFNetworking.h */,
+				AF4221361CF533CA0053FECD /* UIProgressView+AFNetworking.h */,
+				AF4221371CF533CA0053FECD /* UIProgressView+AFNetworking.m */,
+				AF4221381CF533CA0053FECD /* UIRefreshControl+AFNetworking.h */,
+				AF4221391CF533CA0053FECD /* UIRefreshControl+AFNetworking.m */,
+				AF42213A1CF533CA0053FECD /* UIWebView+AFNetworking.h */,
+				AF42213B1CF533CA0053FECD /* UIWebView+AFNetworking.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0C0C571CEEE9B7001B70AF /* UberOAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C0C851CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2" */;
+			buildPhases = (
+				AF0C0C541CEEE9B7001B70AF /* Sources */,
+				AF0C0C551CEEE9B7001B70AF /* Frameworks */,
+				AF0C0C561CEEE9B7001B70AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberOAuth2;
+			productName = UberOAuth2;
+			productReference = AF0C0C581CEEE9B7001B70AF /* UberOAuth2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF0C0C701CEEE9B7001B70AF /* UberOAuth2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C0C881CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2Tests" */;
+			buildPhases = (
+				AF0C0C6D1CEEE9B7001B70AF /* Sources */,
+				AF0C0C6E1CEEE9B7001B70AF /* Frameworks */,
+				AF0C0C6F1CEEE9B7001B70AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0C0C731CEEE9B7001B70AF /* PBXTargetDependency */,
+			);
+			name = UberOAuth2Tests;
+			productName = UberOAuth2Tests;
+			productReference = AF0C0C711CEEE9B7001B70AF /* UberOAuth2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF0C0C7B1CEEE9B7001B70AF /* UberOAuth2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C0C8B1CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2UITests" */;
+			buildPhases = (
+				AF0C0C781CEEE9B7001B70AF /* Sources */,
+				AF0C0C791CEEE9B7001B70AF /* Frameworks */,
+				AF0C0C7A1CEEE9B7001B70AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0C0C7E1CEEE9B7001B70AF /* PBXTargetDependency */,
+			);
+			name = UberOAuth2UITests;
+			productName = UberOAuth2UITests;
+			productReference = AF0C0C7C1CEEE9B7001B70AF /* UberOAuth2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0C0C501CEEE9B7001B70AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "汤冉阳";
+				TargetAttributes = {
+					AF0C0C571CEEE9B7001B70AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TH222XB7QA;
+					};
+					AF0C0C701CEEE9B7001B70AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TH222XB7QA;
+						TestTargetID = AF0C0C571CEEE9B7001B70AF;
+					};
+					AF0C0C7B1CEEE9B7001B70AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TH222XB7QA;
+						TestTargetID = AF0C0C571CEEE9B7001B70AF;
+					};
+				};
+			};
+			buildConfigurationList = AF0C0C531CEEE9B7001B70AF /* Build configuration list for PBXProject "UberOAuth2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0C0C4F1CEEE9B7001B70AF;
+			productRefGroup = AF0C0C591CEEE9B7001B70AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0C0C571CEEE9B7001B70AF /* UberOAuth2 */,
+				AF0C0C701CEEE9B7001B70AF /* UberOAuth2Tests */,
+				AF0C0C7B1CEEE9B7001B70AF /* UberOAuth2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0C0C561CEEE9B7001B70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C0C6B1CEEE9B7001B70AF /* LaunchScreen.storyboard in Resources */,
+				AF0C0C681CEEE9B7001B70AF /* Assets.xcassets in Resources */,
+				AF0C0C661CEEE9B7001B70AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C6F1CEEE9B7001B70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C7A1CEEE9B7001B70AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0C0C541CEEE9B7001B70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF42214A1CF533CA0053FECD /* UIProgressView+AFNetworking.m in Sources */,
+				AF42214B1CF533CA0053FECD /* UIRefreshControl+AFNetworking.m in Sources */,
+				AF42214C1CF533CA0053FECD /* UIWebView+AFNetworking.m in Sources */,
+				AF42213E1CF533CA0053FECD /* AFURLConnectionOperation.m in Sources */,
+				AF0C0CA71CEEE9DD001B70AF /* UberTime.m in Sources */,
+				AF0C0CA01CEEE9DD001B70AF /* UberAPI.m in Sources */,
+				AF42213D1CF533CA0053FECD /* AFHTTPRequestOperationManager.m in Sources */,
+				AF4221441CF533CA0053FECD /* AFURLResponseSerialization.m in Sources */,
+				AF0C0CA61CEEE9DD001B70AF /* UberPromotion.m in Sources */,
+				AF4221461CF533CA0053FECD /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AF4221411CF533CA0053FECD /* AFNetworkReachabilityManager.m in Sources */,
+				AF0C0CA11CEEE9DD001B70AF /* UberLoginWebViewController.m in Sources */,
+				AF0C0CA21CEEE9DD001B70AF /* UberActivity.m in Sources */,
+				AF42210F1CF532790053FECD /* UbeCouponVc.m in Sources */,
+				AF42213C1CF533CA0053FECD /* AFHTTPRequestOperation.m in Sources */,
+				AF4221401CF533CA0053FECD /* AFURLSessionManager.m in Sources */,
+				AF4221451CF533CA0053FECD /* AFNetworkActivityIndicatorManager.m in Sources */,
+				AF4221101CF532790053FECD /* UberTicketVc.m in Sources */,
+				AF4221431CF533CA0053FECD /* AFURLRequestSerialization.m in Sources */,
+				AF4221491CF533CA0053FECD /* UIImageView+AFNetworking.m in Sources */,
+				AF0C0CA31CEEE9DD001B70AF /* UberPrice.m in Sources */,
+				AF0C0C631CEEE9B7001B70AF /* ViewController.m in Sources */,
+				AF0C0C601CEEE9B7001B70AF /* AppDelegate.m in Sources */,
+				AF4221471CF533CA0053FECD /* UIAlertView+AFNetworking.m in Sources */,
+				AF0C0CA51CEEE9DD001B70AF /* UberProfile.m in Sources */,
+				AF4221421CF533CA0053FECD /* AFSecurityPolicy.m in Sources */,
+				AF0C0C5D1CEEE9B7001B70AF /* main.m in Sources */,
+				AF42213F1CF533CA0053FECD /* AFHTTPSessionManager.m in Sources */,
+				AF4221481CF533CA0053FECD /* UIButton+AFNetworking.m in Sources */,
+				AF0C0CA41CEEE9DD001B70AF /* UberProduct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C6D1CEEE9B7001B70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C0C761CEEE9B7001B70AF /* UberOAuth2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C0C781CEEE9B7001B70AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0C0C811CEEE9B7001B70AF /* UberOAuth2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0C0C731CEEE9B7001B70AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0C0C571CEEE9B7001B70AF /* UberOAuth2 */;
+			targetProxy = AF0C0C721CEEE9B7001B70AF /* PBXContainerItemProxy */;
+		};
+		AF0C0C7E1CEEE9B7001B70AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0C0C571CEEE9B7001B70AF /* UberOAuth2 */;
+			targetProxy = AF0C0C7D1CEEE9B7001B70AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF0C0C641CEEE9B7001B70AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C0C651CEEE9B7001B70AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF0C0C691CEEE9B7001B70AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0C0C6A1CEEE9B7001B70AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0C0C831CEEE9B7001B70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF0C0C841CEEE9B7001B70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0C0C861CEEE9B7001B70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberOAuth2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF0C0C871CEEE9B7001B70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberOAuth2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF0C0C891CEEE9B7001B70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberOAuth2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberOAuth2.app/UberOAuth2";
+			};
+			name = Debug;
+		};
+		AF0C0C8A1CEEE9B7001B70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberOAuth2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberOAuth2.app/UberOAuth2";
+			};
+			name = Release;
+		};
+		AF0C0C8C1CEEE9B7001B70AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberOAuth2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberOAuth2;
+			};
+			name = Debug;
+		};
+		AF0C0C8D1CEEE9B7001B70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberOAuth2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangranyang.UberOAuth2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberOAuth2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0C0C531CEEE9B7001B70AF /* Build configuration list for PBXProject "UberOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C0C831CEEE9B7001B70AF /* Debug */,
+				AF0C0C841CEEE9B7001B70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C0C851CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C0C861CEEE9B7001B70AF /* Debug */,
+				AF0C0C871CEEE9B7001B70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C0C881CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C0C891CEEE9B7001B70AF /* Debug */,
+				AF0C0C8A1CEEE9B7001B70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C0C8B1CEEE9B7001B70AF /* Build configuration list for PBXNativeTarget "UberOAuth2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C0C8C1CEEE9B7001B70AF /* Debug */,
+				AF0C0C8D1CEEE9B7001B70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0C0C501CEEE9B7001B70AF /* Project object */;
+}
